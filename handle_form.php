@@ -6,6 +6,9 @@
     </head>
     <body>
         <?php // Script 3.3 handle_form.php
+            
+            ini_set('display_errors', 1); // Let me learn from my mistakes
+
             //Create shorthand versions of the variables:
             $title = $_POST['title'];
             $fname = $_POST['fname'];
